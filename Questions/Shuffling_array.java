@@ -5,10 +5,11 @@ package Questions;
 import java.util.*;
 
 class Shuffling_array{
-    static Random r = new Random();
+    
     
     static void randomize(int [] arr, int n)
     {
+        Random r = new Random();
         for(int i = n-1; i >0; i--)
         {
             int j = r.nextInt(i+1);
