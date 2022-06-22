@@ -1,3 +1,5 @@
+//Given an array Arr[] of N integers. Find the contiguous sub-array(containing at least one number) which has the maximum sum and return its sum.
+
 package Questions;
 
 public class kadens_algo {
@@ -9,7 +11,7 @@ public class kadens_algo {
 
     for (int i = 1; i < size; i++)
     {
-           curr_max = Math.max(a[i], curr_max+a[i]);
+        curr_max = Math.max(a[i], curr_max+a[i]);
         max_so_far = Math.max(max_so_far, curr_max);
     }
     return max_so_far;
