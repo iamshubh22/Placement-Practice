@@ -1,3 +1,5 @@
+//Given an array arr[] of size n, its prefix sum array is another array prefixSum[] of the same size, such that the value of prefixSum[i] is arr[0] + arr[1] + arr[2] … arr[i].
+
 package Questions;
 
 public class Prefix_sum {
