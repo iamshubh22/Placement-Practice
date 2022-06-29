@@ -1,5 +1,7 @@
 {
     "java.project.sourcePaths": [
-        "Questions"
+        "Questions",
+        "Linked_List",
+        "Singly_Linked_List"
     ]
 }
