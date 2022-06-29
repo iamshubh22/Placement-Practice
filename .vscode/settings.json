@@ -2,6 +2,7 @@
     "java.project.sourcePaths": [
         "Singly_Linked_List",
         "Questions",
-        "Circular_Linked_List"
+        "Circular_Linked_List",
+        "Recursion"
     ]
 }
