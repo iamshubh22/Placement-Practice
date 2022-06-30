@@ -130,7 +130,6 @@ public class CircularD {
                 size--;
             }
         }else if(location>=size){
-            Node temp =tail.prev;
             if(size==1){
                 head.next=null;
                 head.prev=null;
