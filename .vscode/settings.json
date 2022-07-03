@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Sorting",
         "Singly_Linked_List",
         "Searching",
         "Recursion",
@@ -7,6 +8,6 @@
         "Doubly_linked_list",
         "Circular_doubly_Linked",
         "Circular_Linked_List",
-        "Sorting"
+        "Stack"
     ]
 }
