@@ -1,5 +1,6 @@
 {
     "java.project.sourcePaths": [
+        "Stack",
         "Sorting",
         "Singly_Linked_List",
         "Searching",
@@ -8,6 +9,6 @@
         "Doubly_linked_list",
         "Circular_doubly_Linked",
         "Circular_Linked_List",
-        "Stack"
+        "Queue"
     ]
 }
