@@ -3,7 +3,6 @@ public class main_q {
     {
         queue q=new queue(5);
         q.isEmpty();
-        q.isFull();
         q.insert(3);
         q.insert(4);
         q.insert(5);
