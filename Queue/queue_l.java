@@ -47,7 +47,6 @@ public class queue_l {
 		}
 		else
 		{
-			Node temp=front;
 			System.out.println(front.data);
 			front=front.next;
 		}				
