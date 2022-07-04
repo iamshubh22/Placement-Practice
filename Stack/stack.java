@@ -13,7 +13,6 @@ public class stack {
     {
         if(top==-1)
         {
-            System.out.println("Stack Empty");
             return true;
         }
         else
@@ -26,7 +25,6 @@ public class stack {
     {
         if(top==arr.length-1)
         {
-            System.out.println("Stack Full");
             return true;
         }
         else
@@ -43,39 +41,43 @@ public class stack {
         }
         else
         {
-            arr[top+1]=value;
             top++;
+            arr[top]=value;
             System.out.println("value inserted successfully");
         }
     }
 
-    public int pop()
+    public void pop()
     {
         if(isEmpty())
         {
             System.out.println("stack is empty");
-            return -1;
-        }
-        else
-        {
-            int tops=arr[top];
-            top--;
-            System.out.println("Value poped Successfully");
-            return tops;
-        }
-    }
 
-    public int peek()
-    {
-        if(isEmpty())
-        {
-            System.out.println("the stack is empty");
-            return -1;
         }
         else
         {
             System.out.println(arr[top]);
-            return arr[top];
+            top--;
+        }
+    }
+
+    public void peek()
+    {
+        if(isEmpty())
+        {
+            System.out.println("the stack is empty");
+        }
+        else
+        {
+            System.out.println(arr[top]);
+        }
+    }
+
+    public void display()
+    {
+        for(int i=top;i>=0;i--)
+        {
+            System.out.println(arr[i]);
         }
     }
 
