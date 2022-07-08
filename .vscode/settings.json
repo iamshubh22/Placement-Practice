@@ -1,15 +1,15 @@
 {
     "java.project.sourcePaths": [
         "Stack",
-        "Sorting",
         "Singly_Linked_List",
         "Searching",
         "Recursion",
         "Queue",
         "Questions",
+        "Greedy Algorithm",
         "Doubly_linked_list",
         "Circular_doubly_Linked",
         "Circular_Linked_List",
-        "Greedy Algorithm"
+        "Sorting"
     ]
 }
