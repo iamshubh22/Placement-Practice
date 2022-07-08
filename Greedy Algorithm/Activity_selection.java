@@ -4,7 +4,6 @@ public class Activity_selection
 {   
     static void Bubble(int [] arr,int n)
     {
-        int swap=0;
         for(int i=0;i<n-1;i++)
         {
             int flag=0;
@@ -20,7 +19,6 @@ public class Activity_selection
             } 
             if(flag==0)
             break;
-            swap++;
         }
     }
 

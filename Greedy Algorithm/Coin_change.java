@@ -2,7 +2,6 @@ public class Coin_change {
 
     static void Bubble(int [] arr,int n)
     {
-        int swap=0;
         for(int i=0;i<n-1;i++)
         {
             int flag=0;
@@ -18,7 +17,6 @@ public class Coin_change {
             } 
             if(flag==0)
             break;
-            swap++;
         }
     }
 
